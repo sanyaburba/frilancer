@@ -1,0 +1,43 @@
+body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+   color: rgb(43, 41, 65);
+}
+
+.bold {
+   font-weight: 700;
+}
+.red {
+   color: red;
+}
+.right {
+   text-align: right;
+}
+.uppercase {
+   text-transform: uppercase;
+}
+.italiq {
+   font-style: italic;
+}
+.underline {
+   text-decoration: underline;
+}
+.center {
+   text-align: center;
+
+}
+.bigtext {
+   font-size: 56px;
+
+}
+.linethrough {
+   text-decoration: line-through;
+}
+.TNR {
+   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.shadow {
+   text-shadow: 0px 0px 1px black;
+}

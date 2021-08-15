@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <form action="#" method ="POST"enctype="multipart/form-data">
+   <p>Имя</p>
+   <input type="text" placeholder="Имя" name="name">
+   <p>Пароль</p>
+   <input type="password" name="pass">
+   <p>Телефон</p>
+   <input type="tel" name="phone-number">
+   <p>Пол</p>
+   <input type="radio" name="male"> Мужской <br>
+   <input checked type="radio" name="female"> Женский
+   <p>Имущество</p>
+   <input type="checkbox" checked> Автомобиль <br>
+   <input type="checkbox" > Катер <br>
+   <input type="checkbox" > Дом <br>
+   <input type="checkbox" > Компьютер <br>
+   <input type="checkbox" > Туалет
+   <p>Дополнительная информация</p>
+   <textarea name="information"></textarea>
+   <p>Прикрепить фото</p>
+   <input type="file">
+   <p>Любимое пиво</p>
+   <select name="beer" id="">
+      <option value="essa">Essa</option>
+      <option value="Corona">Corona</option>
+      <option selected value="Bud">Bud</option>
+      <option value="BLANC">BLANC</option>
+   </select>
+   <p>Что сделать с формой</p>
+   <button type="submit">Отправить</button>
+   <button type="reset">Очистить</button>
+   </form>
+</body>
+</html>

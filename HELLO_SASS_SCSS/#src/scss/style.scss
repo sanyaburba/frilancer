@@ -1,0 +1,60 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+
+   @font-face {
+      font-family: $font_name;
+      font-display: swap;
+      src: url("../fonts/#{$file_name}.woff") format("woff"),
+      url("../fonts/#{$file_name}.woff2") format("woff2");
+      font-weight: #{$weight};
+      font-style: #{$style};
+   }
+}
+@import "nullstyle.scss";
+@import "fonts";
+
+//---------------------
+
+// переменные
+$foo: 80px;
+// шаблоны
+%bar{
+   border: 1px solid red;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   text-decoration: line-through;
+}
+// миксин
+@mixin fontz($f,$c) {
+   font-size: $f;
+   color: $c;
+}
+
+
+.main {
+   font-size: 28px;
+   line-height: $foo;
+   span {
+      color: brown;
+   }
+   @include fontz(50px, yellow)
+}
+
+.link {
+   color: crimson;
+   transition: 0.5s all cubic-bezier(0.23, 1, 0.320, 1);
+   &:hover {
+      color: darkmagenta;
+      text-transform: uppercase;
+      font-size: $foo;
+   }
+   .main &{
+      color: blue;
+   }
+   @extend %bar;
+}
+
+.fullsz {
+   width: 400px / 560px * 80%;
+   background: darkblue;
+   font-size: 68px;
+   border: 4px solid yellow;
+}

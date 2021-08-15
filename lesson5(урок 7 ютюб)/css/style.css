@@ -1,0 +1,158 @@
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+   font-size: 24px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.block__1 {
+   width: 611px;
+   height: 64px;
+   margin: 53px 0 50px 50px;
+   color: aqua;
+}
+
+.block__2 {
+   margin: 0 0 0 49px;
+   color:burlywood;
+}
+
+a {
+   display: block;
+   margin-left: 48px;
+   margin-bottom: 32px;
+}
+
+.block__3 {
+    width: 1145px;
+    height: 86px;
+    margin: 0 0 34px 51px;
+    color: darkcyan;
+}
+
+.block__4 {
+   width: 241px;
+   height: 14px;
+   display: inline;
+   margin: 0 41px 35px 35px;
+   color: crimson;
+}
+
+.block__5 {
+   display: inline-block;
+   margin-bottom: 35px;
+   color: darkmagenta;
+}
+
+.block__6 {
+ display: inline;
+ width: 503px;
+ height: 14px;
+ margin: 35px 42px 37px 50px;
+
+ color: fuchsia;
+}
+
+.block__7 {
+   display: inline;
+   width: 480px;
+   height: 14px;
+   margin: 35px 121px 37px 41px;
+   color: hotpink;
+}
+.block__8 {
+   display: inline-block;
+    width: 343px;
+    height: 111px;
+    margin: 37px 202px 0 2px;
+    color: mediumpurple;
+}

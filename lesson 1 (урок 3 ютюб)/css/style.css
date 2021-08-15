@@ -1,0 +1,7 @@
+h1 {
+   text-align: center;
+}
+.yellow {
+   background-color: yellow;
+   display: inline-block;
+}

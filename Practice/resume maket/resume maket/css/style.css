@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Lato-Bold";
+  font-display: swap;
+  src: url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  font-display: swap;
+  src: url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main {
+  font-style: italic;
+  font-size: 260px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../img/kofe.jpg") 0 0 no-repeat;
+}
+
+span {
+  font-size: 20px;
+}
+
+div {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 15px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+}
+
+.webp .main { background: url(../img/kofe.webp) 0 0 no-repeat; }
